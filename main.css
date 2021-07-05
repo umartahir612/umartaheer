@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;    
+    padding: 0;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+li {
+    float: left;
+    border-right: 2px solid red;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: green;
+    color:red;
+}
+.active{
+    background-color: green;
+}
+li:first-child {
+    border-right: none;
+}
+.images{
+    position: fixed;
+    display: flex;
+    border-radius: 10px;
+    float: right;
+    padding: 1opx;
+}
